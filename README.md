@@ -19,8 +19,12 @@ To set up and start the frontend server:
 1. Navigate to the frontend directory:
    ```bash
    cd ./frontend
-2. Install the dependencies: npm install
-3. Start the development server: npm run dev
+2. Install the dependencies:
+   ```bash
+   npm install
+4. Start the development server:
+   ```bash
+   npm run dev
 
 
 Frontend URL: http://localhost:3000
@@ -32,9 +36,19 @@ Frontend URL: http://localhost:3000
    ```bash
    cd ./backend
 2. Create a virtual environment: python -m venv venv
-3. Activate the virtual environment: venv\Scripts\activate
-4. Install the required packages from the requirements file : pip install -r requirements.txt
-5. Start the backend server: python app.py
+   ```bash
+   python -m venv venv
+4. Activate the virtual environment: 
+   ```bash
+   venv\Scripts\activate
+6. Install the required packages from the requirements file:
+   ```bash
+   pip install -r requirements.txt
+8. Start the backend server:
+   ```bash
+   python app.py
+
+Backend URL: http://localhost:5000
 
 
 
